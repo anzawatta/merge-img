@@ -1,15 +1,10 @@
 # merge-img
 
-[![Code Style Prev](https://img.shields.io/badge/code%20style-prev-32c8fc.svg)](https://github.com/preco21/eslint-config-prev)
-[![NPM Version](https://img.shields.io/npm/v/merge-img.svg)](https://www.npmjs.com/package/merge-img)
-[![Build Status](https://travis-ci.org/preco21/merge-img.svg?branch=master)](https://travis-ci.org/preco21/merge-img)
-[![Dependency Status](https://dependencyci.com/github/preco21/merge-img/badge)](https://dependencyci.com/github/preco21/merge-img)
-
 > Merge multiple images into a single image
 
 `merge-img` merges given images into a single image in right order. This will be helpful in a situation when you have to generate a preview of multiple images into a single image. This module is based on [`Jimp`][jimp] for image processing.
 
-![figure](https://rawgit.com/preco21/merge-img/master/media/figure.png)
+![figure](https://raw.githubusercontent.com/anzawatta/merge-img/master/media/figure.png)
 Image credit: https://www.pexels.com/
 
 ## Install
@@ -53,7 +48,4 @@ Returns a `Promise` that contains [`Jimp`][working-with-jimp] object.
 
 ## License
 
-[MIT](https://preco.mit-license.org/)
-
-[jimp]: https://github.com/oliver-moran/jimp
-[working-with-jimp]: https://github.com/oliver-moran/jimp#writing-to-files-and-buffers
+MIT
