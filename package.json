@@ -6,7 +6,6 @@
   "author": "Plusb Preco <plusb21@gmail.com>",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "npm run lint && npm run test && npm run build",
     "prebuild": "npm run clean",
     "test": "jest test",
     "lint": "eslint .",
@@ -30,7 +29,7 @@
     "merge"
   ],
   "dependencies": {
-    "is-plain-obj": "^4.0.0",
+    "is-plain-obj": "^3.0.0",
     "jimp": "^0.16.1"
   },
   "devDependencies": {
